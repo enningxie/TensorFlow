@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2acab9da-8aca-4812-bb08-2e1bb54e5cd7" name="Default" comment="" />
+    <list default="true" id="2acab9da-8aca-4812-bb08-2e1bb54e5cd7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/neural_network_raw.py" afterPath="$PROJECT_DIR$/examples/neural_network_raw.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +27,7 @@
     <SUITE FILE_PATH="coverage/TensorFlow$test02.coverage" NAME="test02 Coverage Results" MODIFIED="1508745981109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TensorFlow$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1509350261445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
     <SUITE FILE_PATH="coverage/TensorFlow$linear_regression.coverage" NAME="linear_regression Coverage Results" MODIFIED="1509418858684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
-    <SUITE FILE_PATH="coverage/TensorFlow$neural_network_raw.coverage" NAME="neural_network_raw Coverage Results" MODIFIED="1510016463446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/TensorFlow$neural_network_raw.coverage" NAME="neural_network_raw Coverage Results" MODIFIED="1510017578736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
     <SUITE FILE_PATH="coverage/TensorFlow$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1508726325444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -45,7 +47,7 @@
       <file leaf-file-name="autoencoder.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/autoencoder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2940">
+            <state relative-caret-position="1932">
               <caret line="105" column="14" lean-forward="false" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
               <folding>
                 <element signature="e#143#207#0" expanded="true" />
@@ -57,7 +59,7 @@
       <file leaf-file-name="convolutional_network.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/convolutional_network.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2940">
+            <state relative-caret-position="1680">
               <caret line="105" column="11" lean-forward="false" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="11" />
               <folding>
                 <element signature="e#54#118#0" expanded="true" />
@@ -69,11 +71,21 @@
       <file leaf-file-name="neural_network_raw.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/neural_network_raw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="41" column="63" lean-forward="true" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
+            <state relative-caret-position="339">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#57#94#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nn_ops.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow02/lib/python3.5/site-packages/tensorflow/python/ops/nn_ops.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="859">
+              <caret line="1548" column="39" lean-forward="true" selection-start-line="1548" selection-start-column="39" selection-end-line="1548" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,16 +135,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="165" column="6" lean-forward="false" selection-start-line="165" selection-start-column="6" selection-end-line="165" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tensor_forest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow02/lib/python3.5/site-packages/tensorflow/contrib/tensor_forest/python/tensor_forest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="68" column="23" lean-forward="false" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -376,13 +378,13 @@
     <frame x="65" y="-6" width="1855" height="1086" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.071698114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.071698114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2895005" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2895005" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -405,9 +407,9 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29867482" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2895005" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1437309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.071698114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -576,13 +578,6 @@
         <state relative-caret-position="214">
           <caret line="92" column="2" lean-forward="false" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow02/lib/python3.5/site-packages/tensorflow/python/ops/nn_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="1746" column="4" lean-forward="false" selection-start-line="1746" selection-start-column="4" selection-end-line="1746" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -802,16 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/autoencoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="105" column="14" lean-forward="false" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
-          <folding>
-            <element signature="e#143#207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow02/lib/python3.5/site-packages/tensorflow/python/ops/variable_scope.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
@@ -844,9 +829,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples/autoencoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1932">
+          <caret line="105" column="14" lean-forward="false" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
+          <folding>
+            <element signature="e#143#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow02/lib/python3.5/site-packages/tensorflow/python/ops/nn_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="1548" column="39" lean-forward="true" selection-start-line="1548" selection-start-column="39" selection-end-line="1548" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/convolutional_network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
+        <state relative-caret-position="1680">
           <caret line="105" column="11" lean-forward="false" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="11" />
           <folding>
             <element signature="e#54#118#0" expanded="true" />
@@ -856,8 +859,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/neural_network_raw.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="41" column="63" lean-forward="true" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
+        <state relative-caret-position="339">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#57#94#0" expanded="true" />
           </folding>

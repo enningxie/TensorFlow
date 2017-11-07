@@ -8,8 +8,8 @@ mnist = input_data.read_data_sets('../MNIST_data/', one_hot=True)
 import tensorflow as tf
 
 # Parameters
-learning_rate = 0.1
-num_steps = 5000
+learning_rate = 0.01
+num_steps = 20000
 batch_size = 128
 display_step = 100
 
@@ -39,9 +39,9 @@ biases = {
 # Create model
 def neural_net(x):
     # Hidden fully connected layer with 256 neurons
-    layer_1 = tf.add(tf.matmul(X, weights["h1"]), biases["b1"])
+    layer_1 = tf.nn.relu(tf.add(tf.matmul(X, weights["h1"]), biases["b1"]))
     # Hidden fully connected layer with 256 neurons
-    layer_2 = tf.add(tf.matmul(layer_1, weights["h2"]), biases["b2"])
+    layer_2 = tf.nn.relu(tf.add(tf.matmul(layer_1, weights["h2"]), biases["b2"]))
     out_layer = tf.add(tf.matmul(layer_2, weights["out"]), biases["out"])
     return out_layer
 

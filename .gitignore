@@ -2,3 +2,4 @@ text8.zip
 __pycache__/
 MNIST_data/
 .idea/
+graphs/

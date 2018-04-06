@@ -15,9 +15,3 @@ import tensorflow as tf
 #     print(sess.run(x))
 #
 # writer.close()
-
-# Math operations
-a = tf.constant([2, 2], name='a')
-b = tf.constant([[0, 1], [2, 3]], name='b')
-
-with tf.Session() as sess:
